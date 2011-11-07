@@ -1,4 +1,6 @@
-package net.projecteuler.problem36;
+package net.projecteuler.problem036;
+
+import net.projecteuler.problem036.Solution036;
 
 import org.junit.Test;
 import static org.junit.Assert.*;

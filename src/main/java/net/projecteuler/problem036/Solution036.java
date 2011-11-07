@@ -1,4 +1,4 @@
-package net.projecteuler.problem36;
+package net.projecteuler.problem036;
 
 import net.projecteuler.solution.AbstractSolution;
 import net.projecteuler.util.Palindrome;
