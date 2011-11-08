@@ -15,6 +15,16 @@ public class Palindrome {
 	}
 	
 	public static boolean isPalindrome(String s) {
-		return s.equals(reverseString(s));
+		int index = 0;
+		int len = s.length();
+		int endIndex = len - 1;
+		while (index < len - 1) {
+			if (s.charAt(index) != s.charAt(endIndex)) {
+				return false;
+			}
+			index++;
+			endIndex--;
+		}
+		return true;
 	}
 }
