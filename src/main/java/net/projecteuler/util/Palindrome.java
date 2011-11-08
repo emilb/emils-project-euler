@@ -18,7 +18,7 @@ public class Palindrome {
 		int index = 0;
 		int len = s.length();
 		int endIndex = len - 1;
-		while (index < len - 1) {
+		while (index < endIndex) {
 			if (s.charAt(index) != s.charAt(endIndex)) {
 				return false;
 			}
